@@ -1,0 +1,216 @@
+CORRIGINDO problema na atualização do python
+
+Boa Tarde Lucas
+
+Acontece que ao encerrar o terminal/shell e reabri-lo. Ao digitar python --version como resposta obtenho version 2.7.15, só voltando a usar o python 3 instalado depois do comando source sugerido em aula. Como posso fazer para ter o python3 como padrão do MacOSX ? já alterei o /etc/path indicando o caminho onde tenho a versao do interpretador do python 3.
+Last login: Mon Jan 25 13:02:27 on ttys003
+carlosandrade@Carloss-MacBook-Pro-2 ~ % python --version
+Python 2.7.15
+carlosandrade@Carloss-MacBook-Pro-2 ~ % source .bashrc
+carlosandrade@Carloss-MacBook-Pro-2 ~ % python --version
+Python 3.8.7
+
+
+Fala Carlos! Beleza?
+
+Tente esse comando aqui:
+
+sudo ln -s -f /usr/local/bin/python3.9 /usr/local/bin/python
+
+Apenas lembre-se de trocar o "python3.9" pelo python instalado na sua máquina, está 3.9 pois é o que tenho aqui no meu Mac e o comando funcionou certinho.
+
+Bons estudos!
+
+
+
+
+Poema de Zen do Python 
+https://hacktoon.com/posts/2015/programming-comics-3/
+
+• Beautiful is better than ugly.
+• Explicit is better than implicit.
+• Simple is better than complex.
+• Complex is better than complicated.
+• Flat is better than nested.
+• Sparse is better than dense.
+• Readability counts.
+• Special cases aren’t special enough to break the rules.
+• Although practicality beats purity.
+• Errors should never pass silently.
+• Unless explicitly silenced.
+• In the face of ambiguity, refuse the temptation to guess.
+• There should be one-- and preferably only one --obvious way to do it.
+• Although that way may not be obvious at first unless you’re Dutch.
+• Now is better than never.
+• Although never is often better than right now.
+• If the implementation is hard to explain, it’s a bad idea.
+• If the implementation is easy to explain, it may be a good idea.
+• Namespaces are one honking great idea — let’s do more of those!
+
+PEP 8 - trata dos estilos de codificação
+https://www.python.org/dev/peps/pep-0008/
+o link acima mostra as recomendações de codificação e formatação
+
+http://pep8online.com - faz check do çodigo em relação ao estiloa 
+
+teclas do Jupyter
+
+F : find and replace
+↩ : enter edit mode
+⌘⇧F : open the command palette
+⌘⇧P : open the command palette
+P : open the command palette
+⇧↩ : run cell, select below
+⌘↩ : run selected cells
+⌥↩ : run cell and insert below
+Y : change cell to code
+M : change cell to markdown
+R : change cell to raw
+1 : change cell to heading 1
+2 : change cell to heading 2
+3 : change cell to heading 3
+4 : change cell to heading 4
+5 : change cell to heading 5
+6 : change cell to heading 6
+K : select cell above
+↑ : select cell above
+↓ : select cell below
+J : select cell below
+⇧K : extend selected cells above
+⇧↑ : extend selected cells above
+⇧↓ : extend selected cells below
+⇧J : extend selected cells below
+⌘A : select all cells
+A : insert cell above
+B : insert cell below
+X : cut selected cells
+C : copy selected cells
+⇧V : paste cells above
+V : paste cells below
+Z : undo cell deletion
+D,D : delete selected cells
+⇧M : merge selected cells, or current cell with cell below if only one cell is selected
+⌘S : Save and Checkpoint
+S : Save and Checkpoint
+L : toggle line numbers
+O : toggle output of selected cells
+⇧O : toggle output scrolling of selected cells
+H : show keyboard shortcuts
+I,I : interrupt the kernel
+0,0 : restart the kernel (with dialog)
+Esc : close the pager
+Q : close the pager
+⇧L : toggles line numbers in all cells, and persist the setting
+⇧␣ : scroll notebook up
+␣ : scroll notebook down
+
+Edit Mode (press Enter to enable)
+⇥ : code completion or indent
+⇧⇥ : tooltip
+⌘] : indent
+⌘[ : dedent
+⌘A : select all
+⌘Z : undo
+⌘/ : comment
+⌘D : delete whole line
+⌘U : undo selection
+Insert : toggle overwrite flag
+⌘↑ : go to cell start
+⌘↓ : go to cell end
+⌥← : go one word left
+⌥→ : go one word right
+⌥⌫ : delete word before
+⌥⌦ : delete word after
+⌘⇧Z : redo
+⌘⇧U : redo selection
+⌃K : emacs-style line kill
+⌘⌫ : delete line left of cursor
+⌘⌦ : delete line right of cursor
+⌃M : enter command mode
+Esc : enter command mode
+⌘⇧F : open the command palette
+⌘⇧P : open the command palette
+⇧↩ : run cell, select below
+⌘↩ : run selected cells
+⌥↩ : run cell and insert below
+⌃⇧Minus : split cell at cursor(s)
+⌘S : Save and Checkpoint
+↓ : move cursor down
+↑ : move cursor up
+
+no Jupyter:
+- quando a celular estiver azul e vc teclar 1, um markdown de titulo 1 aparecera
+- para executar a linha de comando CMD+enter
+
+No python:
+- não há ponto em virgula no final da sentença;
+- muito preferencialmente : não quebrar linha para uma mesma sentença
+- o python se importa com identação
+- para inserir comentarios usar #
+- lista no python é dinâmica e indexadada - se equivale em outras linguagens ao array
+- dicionario - tipo chave + valor
+- python é dinamicamente tipada ou seja voce consegue trocar os tipos da mesma variavel durante a programação
+- variável : id e valor
+- para comentar multiplas linhas duas opções:
+    1) selecionar linhas e teclar cmd + /
+    2) inciar e terminar um bloco de linhas com """(3 aspas)
+- operadores aritmeticos são operadores binários pois precisa de dois operandos
+- operadores lógicos : or, and , xor
+- tabela verdade
+    - and
+        . True and True => True
+        . True and False => False
+        . False and True => False
+        . False and False => False
+    - or
+        . True or True => True
+        . True or False => True
+        . False or True => True
+        . False or False => False 
+    - Xor - ou exclusivo
+        . True or True => False
+        . True or False => True
+        . False or True => True
+        . False or False => False
+    - negação (unario)
+        . not True
+        . not False
+- 0 (zero) é False
+- not (qualquer num) = True
+
+- não usar operadores bit-a-bit (&, | , ˆ) tentando substituir os op. logicos
+- para mudar o valor de uma váriável é preciso atribir, ou seja usar o operador " = "
+
+Outros - pesquisado no youtube modulos para python
+https://www.youtube.com/watch?v=Vi9Y9AL13Rc
+
+Web:
+Requests: https://pypi.org/project/requests/
+Django: https://pypi.org/project/Django/
+Flask: https://pypi.org/project/Flask/
+Twisted: https://twistedmatrix.com/trac/
+BeautifulSoup: https://pypi.org/project/beautifulsoup4/
+Selenium: https://selenium-python.readthedocs.io/
+
+Data science:
+Numpy: https://numpy.org/
+Pandas: https://pandas.pydata.org/
+Matplotlib: https://matplotlib.org/
+Nltk: https://www.nltk.org/
+Opencv: https://opencv-python-tutroals.readth...
+
+Machine Learning:
+Tensorflow: https://www.tensorflow.org/
+Keras: https://keras.io/
+PyTorch: https://pytorch.org/
+Sci-kit Learn: https://scikit-learn.org/stable/
+
+GUI:
+Kivy: https://kivy.org/#home
+PyQt5: https://pypi.org/project/PyQt5/
+Tkinter: https://wiki.python.org/moin/TkInter
+
+Bonus:
+Pygame: https://www.pygame.org/docs/
+
+5 Python Projects for Beginners - https://www.youtube.com/watch?v=1HHRWg--Ce4
