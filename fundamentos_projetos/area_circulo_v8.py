@@ -2,6 +2,8 @@
 from math import pi
 
 # criando uma função identificada como "circulo"
+
+
 def circulo(raio):
     print('Área do círculo :', pi * float(raio) ** 2)
 
