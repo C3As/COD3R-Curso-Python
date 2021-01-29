@@ -1,3 +1,6 @@
+NO VS CODE para executar programa CTRL+ALT+N com extensão coderunner estando instalada
+para pará-la CTRL+ALT+M
+
 CORRIGINDO problema na atualização do python
 
 Boa Tarde Lucas
@@ -53,94 +56,94 @@ o link acima mostra as recomendações de codificação e formatação
 
 http://pep8online.com - faz check do çodigo em relação ao estiloa 
 
-teclas do Jupyter
+=> teclas do Jupyter
 
-F : find and replace
-↩ : enter edit mode
-⌘⇧F : open the command palette
-⌘⇧P : open the command palette
-P : open the command palette
-⇧↩ : run cell, select below
-⌘↩ : run selected cells
-⌥↩ : run cell and insert below
-Y : change cell to code
-M : change cell to markdown
-R : change cell to raw
-1 : change cell to heading 1
-2 : change cell to heading 2
-3 : change cell to heading 3
-4 : change cell to heading 4
-5 : change cell to heading 5
-6 : change cell to heading 6
-K : select cell above
-↑ : select cell above
-↓ : select cell below
-J : select cell below
-⇧K : extend selected cells above
-⇧↑ : extend selected cells above
-⇧↓ : extend selected cells below
-⇧J : extend selected cells below
-⌘A : select all cells
-A : insert cell above
-B : insert cell below
-X : cut selected cells
-C : copy selected cells
-⇧V : paste cells above
-V : paste cells below
-Z : undo cell deletion
-D,D : delete selected cells
-⇧M : merge selected cells, or current cell with cell below if only one cell is selected
-⌘S : Save and Checkpoint
-S : Save and Checkpoint
-L : toggle line numbers
-O : toggle output of selected cells
-⇧O : toggle output scrolling of selected cells
-H : show keyboard shortcuts
-I,I : interrupt the kernel
-0,0 : restart the kernel (with dialog)
-Esc : close the pager
-Q : close the pager
-⇧L : toggles line numbers in all cells, and persist the setting
-⇧␣ : scroll notebook up
-␣ : scroll notebook down
+    F : find and replace
+    ↩ : enter edit mode
+    ⌘⇧F : open the command palette
+    ⌘⇧P : open the command palette
+    P : open the command palette
+    ⇧↩ : run cell, select below
+    ⌘↩ : run selected cells
+    ⌥↩ : run cell and insert below
+    Y : change cell to code
+    M : change cell to markdown
+    R : change cell to raw
+    1 : change cell to heading 1
+    2 : change cell to heading 2
+    3 : change cell to heading 3
+    4 : change cell to heading 4
+    5 : change cell to heading 5
+    6 : change cell to heading 6
+    K : select cell above
+    ↑ : select cell above
+    ↓ : select cell below
+    J : select cell below
+    ⇧K : extend selected cells above
+    ⇧↑ : extend selected cells above
+    ⇧↓ : extend selected cells below
+    ⇧J : extend selected cells below
+    ⌘A : select all cells
+    A : insert cell above
+    B : insert cell below
+    X : cut selected cells
+    C : copy selected cells
+    ⇧V : paste cells above
+    V : paste cells below
+    Z : undo cell deletion
+    D,D : delete selected cells
+    ⇧M : merge selected cells, or current cell with cell below if only one cell is selected
+    ⌘S : Save and Checkpoint
+    S : Save and Checkpoint
+    L : toggle line numbers
+    O : toggle output of selected cells
+    ⇧O : toggle output scrolling of selected cells
+    H : show keyboard shortcuts
+    I,I : interrupt the kernel
+    0,0 : restart the kernel (with dialog)
+    Esc : close the pager
+    Q : close the pager
+    ⇧L : toggles line numbers in all cells, and persist the setting
+    ⇧␣ : scroll notebook up
+    ␣ : scroll notebook down
 
-Edit Mode (press Enter to enable)
-⇥ : code completion or indent
-⇧⇥ : tooltip
-⌘] : indent
-⌘[ : dedent
-⌘A : select all
-⌘Z : undo
-⌘/ : comment
-⌘D : delete whole line
-⌘U : undo selection
-Insert : toggle overwrite flag
-⌘↑ : go to cell start
-⌘↓ : go to cell end
-⌥← : go one word left
-⌥→ : go one word right
-⌥⌫ : delete word before
-⌥⌦ : delete word after
-⌘⇧Z : redo
-⌘⇧U : redo selection
-⌃K : emacs-style line kill
-⌘⌫ : delete line left of cursor
-⌘⌦ : delete line right of cursor
-⌃M : enter command mode
-Esc : enter command mode
-⌘⇧F : open the command palette
-⌘⇧P : open the command palette
-⇧↩ : run cell, select below
-⌘↩ : run selected cells
-⌥↩ : run cell and insert below
-⌃⇧Minus : split cell at cursor(s)
-⌘S : Save and Checkpoint
-↓ : move cursor down
-↑ : move cursor up
+    Edit Mode (press Enter to enable)
+    ⇥ : code completion or indent
+    ⇧⇥ : tooltip
+    ⌘] : indent
+    ⌘[ : dedent
+    ⌘A : select all
+    ⌘Z : undo
+    ⌘/ : comment
+    ⌘D : delete whole line
+    ⌘U : undo selection
+    Insert : toggle overwrite flag
+    ⌘↑ : go to cell start
+    ⌘↓ : go to cell end
+    ⌥← : go one word left
+    ⌥→ : go one word right
+    ⌥⌫ : delete word before
+    ⌥⌦ : delete word after
+    ⌘⇧Z : redo
+    ⌘⇧U : redo selection
+    ⌃K : emacs-style line kill
+    ⌘⌫ : delete line left of cursor
+    ⌘⌦ : delete line right of cursor
+    ⌃M : enter command mode
+    Esc : enter command mode
+    ⌘⇧F : open the command palette
+    ⌘⇧P : open the command palette
+    ⇧↩ : run cell, select below
+    ⌘↩ : run selected cells
+    ⌥↩ : run cell and insert below
+    ⌃⇧Minus : split cell at cursor(s)
+    ⌘S : Save and Checkpoint
+    ↓ : move cursor down
+    ↑ : move cursor up
 
-no Jupyter:
-- quando a celular estiver azul e vc teclar 1, um markdown de titulo 1 aparecera
-- para executar a linha de comando CMD+enter
+=> no Jupyter:
+    - quando a celular estiver azul e vc teclar 1, um markdown de titulo 1 aparecera
+    - para executar a linha de comando CMD+enter
 
 No python:
 - não há ponto em virgula no final da sentença;
@@ -154,9 +157,9 @@ No python:
 - para comentar multiplas linhas duas opções:
     1) selecionar linhas e teclar cmd + /
     2) inciar e terminar um bloco de linhas com """(3 aspas)
-- operadores aritmeticos são operadores binários pois precisa de dois operandos
-- operadores lógicos : or, and , xor
-- tabela verdade
+=> operadores aritmeticos são operadores binários pois precisa de dois operandos
+=> operadores lógicos : or, and , xor
+=> tabela verdade
     - and
         . True and True => True
         . True and False => False
@@ -175,42 +178,85 @@ No python:
     - negação (unario)
         . not True
         . not False
-- 0 (zero) é False
-- not (qualquer num) = True
+=> 0 (zero) é False
+=> not (qualquer num) = True
 
-- não usar operadores bit-a-bit (&, | , ˆ) tentando substituir os op. logicos
-- para mudar o valor de uma váriável é preciso atribir, ou seja usar o operador " = "
+=> não usar operadores bit-a-bit (&, | , ˆ) tentando substituir os op. logicos
+=> para mudar o valor de uma váriável é preciso atribir, ou seja usar o operador " = "
 
-Outros - pesquisado no youtube modulos para python
+=> Outros - pesquisado no youtube modulos para python
 https://www.youtube.com/watch?v=Vi9Y9AL13Rc
 
-Web:
-Requests: https://pypi.org/project/requests/
-Django: https://pypi.org/project/Django/
-Flask: https://pypi.org/project/Flask/
-Twisted: https://twistedmatrix.com/trac/
-BeautifulSoup: https://pypi.org/project/beautifulsoup4/
-Selenium: https://selenium-python.readthedocs.io/
+    - Web:
+        Requests: https://pypi.org/project/requests/
+        Django: https://pypi.org/project/Django/
+        Flask: https://pypi.org/project/Flask/
+        Twisted: https://twistedmatrix.com/trac/
+        BeautifulSoup: https://pypi.org/project/beautifulsoup4/
+        Selenium: https://selenium-python.readthedocs.io/
 
-Data science:
-Numpy: https://numpy.org/
-Pandas: https://pandas.pydata.org/
-Matplotlib: https://matplotlib.org/
-Nltk: https://www.nltk.org/
-Opencv: https://opencv-python-tutroals.readth...
+    - Data science:
+        Numpy: https://numpy.org/
+        Pandas: https://pandas.pydata.org/
+        Matplotlib: https://matplotlib.org/
+        Nltk: https://www.nltk.org/
+        Opencv: https://opencv-python-tutroals.readth...
 
-Machine Learning:
-Tensorflow: https://www.tensorflow.org/
-Keras: https://keras.io/
-PyTorch: https://pytorch.org/
-Sci-kit Learn: https://scikit-learn.org/stable/
+    - Machine Learning:
+        Tensorflow: https://www.tensorflow.org/
+        Keras: https://keras.io/
+        PyTorch: https://pytorch.org/
+        Sci-kit Learn: https://scikit-learn.org/stable/
 
-GUI:
-Kivy: https://kivy.org/#home
-PyQt5: https://pypi.org/project/PyQt5/
-Tkinter: https://wiki.python.org/moin/TkInter
+    - GUI:
+        Kivy: https://kivy.org/#home
+        PyQt5: https://pypi.org/project/PyQt5/
+        Tkinter: https://wiki.python.org/moin/TkInter
 
-Bonus:
-Pygame: https://www.pygame.org/docs/
+    - Bonus:
+        Pygame: https://www.pygame.org/docs/
 
-5 Python Projects for Beginners - https://www.youtube.com/watch?v=1HHRWg--Ce4
+=> 5 Python Projects for Beginners - https://www.youtube.com/watch?v=1HHRWg--Ce4
+
+=> funcoes internas do python: https://docs.python.org/3/library/functions.html
+
+=> builtins - modulo que fornece acesso direto a todos os funcoes internas do Python, já é carregado automaticamente como parte do escopo global do python
+
+=> o resultado de uma operação de divisão é sempre do tipo float
+
+=> não é possivel alterar o valor de uma string, o que se pode fazer é alterar o valor da variável
+
+=> Python é case sensitivy
+
+=> https://www.python-course.eu/python3_magic_methods.php
+
+=> no jupyter - help(list) : permite voce visualizar todas as funcoes a quais listas podem ser utilizadas bem como a definição e sintaxe
+
+=> No python listas são mútaveis e aceitam tipos diferentes na mesma lista, diferentemente de outras linguagens (p.ex : java) - lista é delimitada por colchetes []
+
+=> Apesar do Python permitir tipos diferentes numa mesma lista, esta prática não é recomendável
+
+=> Tupla é uma sequencia imutável diferentemente da lista - deleimtada por parenteses ()
+
+=> Dicionario é tipo chave & valor e normalmente a chave é uma string - delimitado por chaves {}
+
+=> Dicionario não é um objeto no Python
+
+=> as chaves não podem ser repetidas
+
+=> conjunto = set - delimitado por chaves {} e contém somente valores, não garante ordem, não é indexado e não aceita valores duplicados
+
+=> interpolar = substituir valores dentro da string
+
+=> Shebang é um comentário especial começando com #! que indica qual o interpretador do python será utilizado para o programa - p.ex : #!/usr/local/bin/python3
+
+=> no terminal "ls -l" para visualizar os arquivos e diretorios contidos na pasta atualização
+=> comando chmod muda as permissões do arquivos - p.ex: chmod u+x nome_do_arquivo - dá permissão para o usuario(u) +x Adiciona permissão de execução - dessa forma e com Shebang podemos somente digitar no terminal ./area_circulo_v3.py (nome do arquivo) que o mesmo será executado.
+
+=> entrada de dados por input serão do tipo string então cuidado para conversão se for o caso
+
+=> os vários arquivos de um programa podem também serem considerados como módulos, neste caso podem também serem usados a partir de importações por outros arquivos de programas.
+=> se o arquivo for executado isoladamente no terminal este terá como nome do módulo __main__
+=> se este mesmo arquivo for importado dentro do interpretador do python o nome do modulo será o proprio nome do arquivo
+
+=> No Python um bloco é identificado pela identação(espaços), no momento que a identação é quebrada o Python identifica o fechamento do bloco de código
