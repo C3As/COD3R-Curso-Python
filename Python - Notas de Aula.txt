@@ -260,3 +260,10 @@ https://www.youtube.com/watch?v=Vi9Y9AL13Rc
 => se este mesmo arquivo for importado dentro do interpretador do python o nome do modulo será o proprio nome do arquivo
 
 => No Python um bloco é identificado pela identação(espaços), no momento que a identação é quebrada o Python identifica o fechamento do bloco de código
+
+=> o laço while é usado quando se tem um número indeterminado de repetições
+=> o laço FOR é usado para um determinado de repetições
+
+=> enumerate() - # The enumerate object yields pairs containing a count (from start, which defaults to zero) and a value yielded by the iterable argument.
+
+=> no Python as variaveis usadas dentro de um bloco "for" estarão disponíveis mesmo após o final do bloco
