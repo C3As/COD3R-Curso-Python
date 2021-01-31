@@ -267,3 +267,12 @@ https://www.youtube.com/watch?v=Vi9Y9AL13Rc
 => enumerate() - # The enumerate object yields pairs containing a count (from start, which defaults to zero) and a value yielded by the iterable argument.
 
 => no Python as variaveis usadas dentro de um bloco "for" estarão disponíveis mesmo após o final do bloco
+
+=> continue  # interrompe prematuramente a iteração do valor em análise indo diretamente para a próxima iteração mas ainda dentro do laço "for"
+break  # para completamente a iteração saindo do laço "for" executando os códigos fora do laço
+
+=> a função switch não existe no python mas usando "dicionário + laço for" podemos ter a mesma funcionalidade
+
+=> boas práticas em python recomendam que constantes sejam declaradas em maiusculas, apesar de não existir constantes no python
+
+=> recursividade é um metodo chamando ele próprio, mas há a necessidade deste método ter uma condição de parada para o mesmo não ficar se chamando indefinidamente
