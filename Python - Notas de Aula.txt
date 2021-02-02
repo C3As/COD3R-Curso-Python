@@ -236,7 +236,7 @@ https://www.youtube.com/watch?v=Vi9Y9AL13Rc
 
 => Apesar do Python permitir tipos diferentes numa mesma lista, esta prática não é recomendável
 
-=> Tupla é uma sequencia imutável diferentemente da lista - deleimtada por parenteses ()
+=> Tupla é uma sequencia imutável diferentemente da lista - delimitada por parenteses ()
 
 => Dicionario é tipo chave & valor e normalmente a chave é uma string - delimitado por chaves {}
 
@@ -276,3 +276,49 @@ break  # para completamente a iteração saindo do laço "for" executando os có
 => boas práticas em python recomendam que constantes sejam declaradas em maiusculas, apesar de não existir constantes no python
 
 => recursividade é um metodo chamando ele próprio, mas há a necessidade deste método ter uma condição de parada para o mesmo não ficar se chamando indefinidamente
+
+=> P.ex: tupla - valores = ("Gui", 4) - atribuindo os valores da tupla: 
+   "nome {} idade {}".format(*valores) = nome Gui idade 4
+   o uso do * do nome da tupla atribui os valores diretamente as {}
+   A mesma funcionalidade pode ser usada para LISTAS
+
+=> função strip() - string.strip() retira os caracteres antes e depois da string - o caracter retirado deve ser indicado dentro dos () da função
+
+=> open(file: str, mode: str, buffering: int, encoding: str, errors: str, newline: str, closefd:      bool, opener: str)
+mode: str
+Open file and return a stream. Raise OSError upon failure.
+file is either a text or byte string giving the name
+
+=> print()
+print(value, ..., sep=' ', end='\n', file=sys.stdout, flush=False)
+
+Prints the values to a stream, or to sys.stdout by default. Optional keyword arguments: file: a file-like object (stream); defaults to the current sys.stdout. sep: string inserted between values, default a space. end: string appended after the last value, default a newline. flush: whether to forcibly flush the stream.
+
+=> module urllib
+urllib is a package that collects several modules for working with URLs:
+
+    urllib.request for opening and reading URLs
+    urllib.error containing the exceptions raised by urllib.request
+    urllib.parse for parsing URLs
+    urllib.robotparser for parsing robots.txt files
+
+=> List Methods
+Python has a set of built-in methods that you can use on lists.
+Method 	Description
+    append()    Adds an element at the end of the list
+    clear()     Removes all the elements from the list
+    copy()	    Returns a copy of the list
+    count()	    Returns the number of elements with the specified value
+    extend()	Add the elements of a list (or any iterable), to the end of the current list
+    index()	    Returns the index of the first element with the specified value
+    insert()	Adds an element at the specified position
+    pop()	    Removes the element at the specified position
+    remove()	Removes the item with the specified value
+    reverse()	Reverses the order of the list
+    sort()	    Sorts the list
+
+=> generator funciona da mesma forma do que list comprehensio, mas:
+#   1) usa parenteses ao inves de colchetes
+#   2) não gera a lista toda ao mesmo tempo
+#   3) gera elementos por demanda
+#   4) reduz a necessidade de memória desta forma
