@@ -342,3 +342,6 @@ Method 	Description
     decorators de classe
 
 Um decorator em Python é qualquer objeto Python que pode ser chamado, usado para modificar uma função ou classe. Uma referência a uma função "func" ou classe "C" é passada para um decorator e o decorator retorna uma função ou classe modificada. As funções ou classes modificadas geralmente contêm chamadas para a função original "func" ou classe "C". 
+
+=> A existência do arquivo __init__.py (mesmo vazio) serve para indicar que o diretório pacote1 é um pacote Python.
+=> Organizamos um grande número de arquivos em diferentes pastas e subpastas com base em alguns critérios, para que possamos localizá-los e gerenciá-los facilmente. Da mesma forma, um pacote em Python leva o conceito de abordagem modular para o próximo nível lógico. Um módulo pode conter vários objetos, como classes, funções, etc. Um pacote pode conter um ou mais módulos relevantes. Fisicamente, um pacote é, na verdade, uma pasta que contém um ou mais arquivos de módulo. 
