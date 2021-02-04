@@ -322,3 +322,15 @@ Method 	Description
 #   2) não gera a lista toda ao mesmo tempo
 #   3) gera elementos por demanda
 #   4) reduz a necessidade de memória desta forma
+
+=> Em Python uma função é um objeto e um objeto pode se comportar com uma função
+=> existem dois tipos de parametros:
+    1) posicional
+        func (p1, p2, p3) sendo que p1, p2 e p3 são as posiçoes em que os argumentos
+            correspondem aos parametros no momento de chamada da função
+    2) nomeado
+        func (p1, p2, p3) no momento da chamada da função indicar que :
+        func (2, p3=1, p2 = 5) nomeando os parametros
+=> modelos de parametros mais conhecidos:
+    *args -> gera tupla -> normalmente argumentos posicionais
+    **kwargs -> gera dicionario -> -> normalmente argumentos nomeados já que são chave&valor
