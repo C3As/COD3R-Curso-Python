@@ -334,3 +334,11 @@ Method 	Description
 => modelos de parametros mais conhecidos:
     *args -> gera tupla -> normalmente argumentos posicionais
     **kwargs -> gera dicionario -> -> normalmente argumentos nomeados já que são chave&valor
+
+=> decorator permite extender o objeto sem a necessidade de ter herança. Cria um novo objeto englobando um objeto já existente adicionando mais funcionalidades por composição
+=> Embora seja o mesmo conceito subjacente, temos dois tipos diferentes de decorators em Python:
+
+    decorators de função
+    decorators de classe
+
+Um decorator em Python é qualquer objeto Python que pode ser chamado, usado para modificar uma função ou classe. Uma referência a uma função "func" ou classe "C" é passada para um decorator e o decorator retorna uma função ou classe modificada. As funções ou classes modificadas geralmente contêm chamadas para a função original "func" ou classe "C". 
