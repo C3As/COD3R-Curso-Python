@@ -3,7 +3,7 @@ para pará-la CTRL+ALT+M
 
 CORRIGINDO problema na atualização do python
 
-Boa Tarde Lucas
+BOA TARDE LUCAS
 
 Acontece que ao encerrar o terminal/shell e reabri-lo. Ao digitar python --version como resposta obtenho version 2.7.15, só voltando a usar o python 3 instalado depois do comando source sugerido em aula. Como posso fazer para ter o python3 como padrão do MacOSX ? já alterei o /etc/path indicando o caminho onde tenho a versao do interpretador do python 3.
 Last login: Mon Jan 25 13:02:27 on ttys003
@@ -345,3 +345,22 @@ Um decorator em Python é qualquer objeto Python que pode ser chamado, usado par
 
 => A existência do arquivo __init__.py (mesmo vazio) serve para indicar que o diretório pacote1 é um pacote Python.
 => Organizamos um grande número de arquivos em diferentes pastas e subpastas com base em alguns critérios, para que possamos localizá-los e gerenciá-los facilmente. Da mesma forma, um pacote em Python leva o conceito de abordagem modular para o próximo nível lógico. Um módulo pode conter vários objetos, como classes, funções, etc. Um pacote pode conter um ou mais módulos relevantes. Fisicamente, um pacote é, na verdade, uma pasta que contém um ou mais arquivos de módulo. 
+
+=> método é a função dentro do contexto de uma classe ou objeto
+
+=> len(lista) => função => procedural => ator principal é a função
+
+=> lista.len() => método => POO => ator pricipal é o objeto(lista)
+
+=> Objeto é composto dos membros: Atributos (dados) e  Comportamento (Métodos/Funções)
+
+    - função : add(lista, item)
+    - objeto : lista.add(item) - obejto é a dona do comportamento que atua nos dados
+
+=> Classe é um molde a partir do qual um ou mais objetos serão criados(instanciados)
+
+=> Pilares da POO:
+    1) herança - capacidade de herdar(reusar) comportamentos de um outro objeto/classe
+    2) polimorfismo - capacidade de substituir um elemento concreto por um conceito abstrato
+    3) encapsulamento(esconder) - capacidade de usar um objeto sem entender internamente o objeto
+    4) abstração - pegar um conceito do mundo real e transferir para o mundo do software
