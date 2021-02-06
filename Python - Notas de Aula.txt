@@ -364,3 +364,6 @@ Um decorator em Python é qualquer objeto Python que pode ser chamado, usado par
     2) polimorfismo - capacidade de substituir um elemento concreto por um conceito abstrato
     3) encapsulamento(esconder) - capacidade de usar um objeto sem entender internamente o objeto
     4) abstração - pegar um conceito do mundo real e transferir para o mundo do software
+
+=> construtor padrão : 
+    def __init__(self, p1, p2, p3, ...): # construtor do objeto
